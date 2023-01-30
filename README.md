@@ -14,9 +14,9 @@ composer require khamdullaevuz/laravel-slug
 ## Usage
 
 ```php
-use KhamdullaevUz\LaravelSlug\LaravelSlug;
+use KhamdullaevUz\LaravelSlug\Sluggable;
 
-LaravelSlug::make('Привет, мир'); // privet-mir
+Sluggable::make('Привет, мир'); // privet-mir
 ```
 
 ## Credits

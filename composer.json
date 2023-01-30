@@ -31,7 +31,7 @@
                 "Khamdullaevuz\\LaravelSlug\\LaravelSlugServiceProvider"
             ],
             "aliases": {
-                "LaravelSlug": "Khamdullaevuz\\LaravelSlug\\Facades\\LaravelSlug"
+                "Slug": "Khamdullaevuz\\LaravelSlug\\Facades\\Slug"
             }
         }
     },

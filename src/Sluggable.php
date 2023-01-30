@@ -2,9 +2,9 @@
 
 namespace Khamdullaevuz\LaravelSlug;
 
-use Khamdullaevuz\LaravelSlug\Facades\LaravelSlug as Facade;
+use Khamdullaevuz\LaravelSlug\Facades\Slug as Facade;
 
-class LaravelSlug
+class Sluggable
 {
     public static function make($slug): string
     {
