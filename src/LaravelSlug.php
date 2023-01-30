@@ -2,10 +2,13 @@
 
 namespace Khamdullaevuz\LaravelSlug;
 
+use Khamdullaevuz\LaravelSlug\Facades\LaravelSlug as Facade;
+
 class LaravelSlug
 {
-    public function translateSlug($slug): string
+    public static function translateSlug($slug): string
     {
-        return Facades\LaravelSlug::translateSlug($slug);
+        $laravelSlug = new Facade();
+        return $laravelSlug->translateSlug($slug);
     }
 }
