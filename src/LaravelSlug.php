@@ -4,8 +4,8 @@ namespace Khamdullaevuz\LaravelSlug;
 
 class LaravelSlug
 {
-    public function translateSlug($slug): array
+    public function translateSlug($slug): string
     {
-        return \Khamdullaevuz\LaravelSlug\Facades\LaravelSlug::translateSlug($slug);
+        return Facades\LaravelSlug::translateSlug($slug);
     }
 }
