@@ -14,14 +14,9 @@ composer require khamdullaevuz/laravel-slug
 ## Usage
 
 ```php
-$laravelSlug = new Khamdullaevuz\LaravelSlug();
-echo $laravelSlug->echoPhrase('Hello, Khamdullaevuz!');
-```
+use KhamdullaevUz\LaravelSlug\LaravelSlug;
 
-## Testing
-
-```bash
-composer test
+LaravelSlug::make('Привет, мир'); // privet-mir
 ```
 
 ## Credits
